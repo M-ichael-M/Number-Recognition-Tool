@@ -1,0 +1,12 @@
+Z AI2 usunięto linijkę odpowiedzialną za przepuszczanie maksymalnej
+wartości przez warstwe 2, linijka:
+        full = warstwa2(wagi.full, full_p, wagi0_v2, wagi1_v2, wagi2_v2, wagi3_v2, wagi4_v2, wagi5_v2, wagi6_v2, wagi7_v2, wagi8_v2, wagi9_v2)	
+została usunięta.
+Pewność programu co do jednego przykładu jest nieznacznie mniejsza,
+ale różnice w wyniku między innymi wynikami są większe, np.
+AI 1:
+- Pewność 91% dla 1
+- Pewność 90.9% dla 3
+AI 2:
+- Pewnośc 90% dla 1
+- Pewność 89% dla 3

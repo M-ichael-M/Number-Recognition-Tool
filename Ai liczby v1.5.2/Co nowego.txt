@@ -1,0 +1,4 @@
+1. Nowa wersja ustawia x jako 1 gdy wartość >= 128, Liczby, gdy wartość = 255
+2. W modelu 1.5.2 dodano instrukcje try...except
+3. W modelu 1.5.2 dodano szereg zabezpieczeń oraz informacji o ewentualnych błędach
+4. W modelu 1.5.2 dodano funkcje automatycznego uczenia ucz_bot oraz bot
